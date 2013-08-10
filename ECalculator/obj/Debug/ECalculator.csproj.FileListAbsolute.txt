@@ -87,6 +87,5 @@ D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\bin\System.Web.Razor.xml
 D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\bin\System.Web.WebPages.xml
 D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\bin\System.Web.WebPages.Deployment.xml
 D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\bin\System.Web.WebPages.Razor.xml
-D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\obj\Debug\ECalculator.csprojResolveAssemblyReference.cache
 D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\obj\Debug\ECalculator.dll
 D:\PROGRAMMING\ASP.NET (C#)\MVC\ECalculator\ECalculator\obj\Debug\ECalculator.pdb
