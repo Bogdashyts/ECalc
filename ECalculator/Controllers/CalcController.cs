@@ -7,7 +7,7 @@ using ECalculator.Models;
 
 namespace ECalculator.Controllers
 {
-    public class CalcController : Controllern
+    public class CalcController : Controhllern
     {
         //
         // GET: /Calc/
