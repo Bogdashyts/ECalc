@@ -16,7 +16,7 @@ namespace ECalculator.Tests
             sumresult.Operand2 = 3;
             sumresult.Operation = CalcOperations.Sum;
 
-            Assert.AreEqual(5, sumresult.Calculate());
+            Assert.AreEqual(53, sumresult.Calculate());
         }
 
         [TestMethod]
