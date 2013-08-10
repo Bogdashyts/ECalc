@@ -1,0 +1,36 @@
+﻿@using ECalculator.Models;
+
+@model CalcModel
+
+@{
+    ViewBag.Title = "Calculate";
+}
+
+<h2>Calculate</h2>
+
+
+@using (Html.BeginForm())
+{
+    <table>
+        <tr>
+            @Html.LabelFor(m => m.Operand1)
+            @Html.TextBoxFor(m => m.Operand1)
+
+        </tr>
+        <tr>
+            @Html.LabelFor(m => m.Operand2)
+            @Html.TextBoxFor(m => m.Operand2)
+
+        </tr>
+        <tr>
+            @Html.LabelFor(m => m.Operation)
+            @Html.DropDownListFor(m => m.Operation, new SelectList(Enum.GetNames(typeof(CalcOperations))))
+        </tr>
+    </table>
+    <input type="submit" value="Calculate">
+}
+
+<p>
+    @Html.LabelFor(m => m.Result)
+    @Html.DisplayTextFor(m => m.Result)
+</p>
